@@ -1,7 +1,7 @@
 # Give Me Opportunity
 
-![image](https://github.com/AnnChangSal/give-me-opportunity/assets/gmo-search.png)
-![image](https://github.com/AnnChangSal/give-me-opportunity/assets/gmo-search-results.png)
+![image](/assets/gmo-search.png)
+![image2](/assets/gmo-search-result.png)
 
 A simple web application that allows users to search for jobs by location and job type (remote, hybrid, in-person) using the Indeed API.
 
@@ -9,7 +9,8 @@ A simple web application that allows users to search for jobs by location and jo
 
 - Search jobs based on user input.
 - Display job listings with title, company, location, and a link to the job posting.
-- Responsive design with a purple, white, and black theme.
+- Directely go to the job post with several different job search sites.
+- Responsive design with a white, and black clean theme.
 
 ## Technologies Used
 
@@ -59,8 +60,12 @@ A simple web application that allows users to search for jobs by location and jo
 
    Create a `.env` file in the root directory and add the following:
    ```
-   INDEED_API_KEY=your_indeed_api_key_here
+   # .env
+
+   RAPID_API_KEY=your_rapid_api
+
    ```
+   - [RapidAPI](https://rapidapi.com/hub) This site have tones of free API even with job searching api which I used
 6. **Run the application**
 
    ```
@@ -69,6 +74,8 @@ A simple web application that allows users to search for jobs by location and jo
 7. **Access the application**
 
    Open your web browser and navigate to `http://127.0.0.1:5000`.
+
+   (Deactivate with CTL + C on your terminal after searching)
 
 ## License
 
