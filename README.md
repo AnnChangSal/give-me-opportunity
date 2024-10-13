@@ -1,5 +1,8 @@
 # Give Me Opportunity
 
+![image](https://github.com/AnnChangSal/give-me-opportunity/assets/gmo-search.png)
+![image](https://github.com/AnnChangSal/give-me-opportunity/assets/gmo-search-results.png)
+
 A simple web application that allows users to search for jobs by location and job type (remote, hybrid, in-person) using the Indeed API.
 
 ## Features
