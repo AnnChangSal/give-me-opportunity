@@ -1,0 +1,83 @@
+/* Global Styling */
+body {
+    background-color: white;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h3 {
+    color: black;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input, select {
+    width: 100%;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Job listing box */
+.job-listing {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.job-listing:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive job results grid */
+#job-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+/* Pagination controls styling */
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-button {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Specific button images */
+.prev-button {
+    background-image: url('/static/images/previousbutton.png'); /* Path to previous button image */
+}
+
+.next-button {
+    background-image: url('/static/images/nextbutton.png'); /* Path to next button image */
+}
+
+button {
+    cursor: pointer;
+}
